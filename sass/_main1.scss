@@ -1,0 +1,36 @@
+
+main{
+    background-color: #0B1D26;
+    .wrap_1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+        display: flex;
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: space-evenly;
+        // gap: 200px;
+        align-items: center;
+        max-width: 1920px;
+        h2{
+            font-size: 50px;
+        }
+
+
+    }
+}
+
+@media (max-width: 977px) {
+    main{
+       .container{
+
+            display: flex;
+            flex-wrap: wrap;
+
+           .wrap_1{
+                width: 977px !important;
+           }
+       }
+    }
+    
+}
